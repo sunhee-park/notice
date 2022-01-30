@@ -32,3 +32,11 @@
 
 ### 조회수 증가 관련
 - 게시물 조회 시에 PostsService 의 int increaseViewCount(Long id)를 호출하여 조회수를 증가
+
+##  API 실행시
+localhost:8080에서 기본으로 실행
+
+### Request FORM
+POST와 PUT 요청시에는 아래의 FORM 구조로 전송
+
+![Request Form 구조](https://user-images.githubusercontent.com/97577633/151697747-870a149f-9095-4335-8714-2fd3aeb848e9.PNG)
