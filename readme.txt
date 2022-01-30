@@ -31,3 +31,5 @@ Files 테이블의 posts_id 칼럼은 Posts 테이블의 id 칼럼울 foreign ke
 동일한 이름의 첨부파일 등록을 위해 uuid로 파일이름을 생성하여 저장
 파일 저장 디렉토리를 application.properties 파일의 storage.location 필드에서 설정
 
+4.
+게시물 조회 시에 PostsService 의 int increaseViewCount(Long id)를 호출하여 조회수를 증가
